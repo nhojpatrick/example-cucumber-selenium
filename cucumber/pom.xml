@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<!--modelVersion / -->
+	<modelVersion>4.0.0</modelVersion>
+	<!--parent / -->
+	<parent>
+		<groupId>com.github.nhojpatrick.examples</groupId>
+		<artifactId>cucumber-selenium</artifactId>
+		<version>1</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+	<!--groupId / -->
+	<!--artifactId / -->
+	<artifactId>cucumber-selenium-cucumber</artifactId>
+	<!--packaging / -->
+	<packaging>jar</packaging>
+	<!--name / -->
+	<name>Cucumber Selenium Cucumber</name>
+	<!--version / -->
+	<!--description / -->
+	<!--url / -->
+	<!--prerequisites / -->
+	<!--issueManagement / -->
+	<!--ciManagement / -->
+	<!--inceptionYear / -->
+	<!--mailingLists / -->
+	<!--developers / -->
+	<!--contributors / -->
+	<!--licenses / -->
+	<!--scm / -->
+	<!--organization / -->
+	<!--build /-->
+	<!--profiles / -->
+	<!--modules / -->
+	<!--repositories / -->
+	<!--pluginRepositories / -->
+	<!--dependencies / -->
+	<dependencies>
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>${dependency.io.cucumber}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java8</artifactId>
+			<version>${dependency.io.cucumber}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>${dependency.io.cucumber}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit-platform-engine</artifactId>
+			<version>${dependency.io.cucumber}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest</artifactId>
+			<version>${dependency.org.hamcrest}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.platform</groupId>
+			<artifactId>junit-platform-engine</artifactId>
+			<version>${dependency.org.junit.platform}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.vintage</groupId>
+			<artifactId>junit-vintage-engine</artifactId>
+			<version>${dependency.org.junit.vintage}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${dependency.org.slf4j}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>${dependency.org.slf4j}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	<!--reports (Deprecated) / -->
+	<!--reporting / -->
+	<!--dependencyManagement / -->
+	<!--distributionManagement / -->
+	<!--properties / -->
+	<properties>
+		<dependency.io.cucumber>6.10.4</dependency.io.cucumber>
+		<dependency.org.hamcrest>2.2</dependency.org.hamcrest>
+		<dependency.org.junit.platform>1.8.0-M1</dependency.org.junit.platform>
+		<dependency.org.junit.vintage>5.8.0-M1</dependency.org.junit.vintage>
+		<dependency.org.slf4j>1.7.30</dependency.org.slf4j>
+	</properties>
+</project>
